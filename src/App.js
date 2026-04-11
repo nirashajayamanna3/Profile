@@ -1,19 +1,16 @@
-import ProfileCard from "./component/profile";
+import Profile from "./component/profile";
+
+import "./component/profile.css";
 
 function App() {
   return (
-    <div className="bg-gray-900 min-h-screen p-8 space-y-4">
-      
-
-      <ProfileCard
-        name="Nirasha"
-        role="Software Engineering Student"
-        bio="Passionate about full stack development."
-      />
-
-      
+    <div>
+      <h1 style={{ textAlign: "center" }}>User Profile</h1>
+      <Profile />
     </div>
   );
 }
+
+
 
 export default App;
