@@ -1,25 +1,19 @@
-// import logo from './logo.svg';
-import './App.css';
+import ProfileCard from "./component/profile";
 
 function App() {
-//   return (
-//   //   <div className="App">
-//   //     <header className="App-header">
-//   //       <img src={logo} className="App-logo" alt="logo" />
-//   //       <p>
-//   //         Edit <code>src/App.js</code> and save to reload.
-//   //       </p>
-//   //       <a
-//   //         className="App-link"
-//   //         href="https://reactjs.org"
-//   //         target="_blank"
-//   //         rel="noopener noreferrer"
-//   //       >
-//   //         Learn React
-//   //       </a>
-//   //     </header>
-//   //   </div>
-//  );
+  return (
+    <div className="bg-gray-900 min-h-screen p-8 space-y-4">
+      
+
+      <ProfileCard
+        name="Nirasha"
+        role="Software Engineering Student"
+        bio="Passionate about full stack development."
+      />
+
+      
+    </div>
+  );
 }
 
 export default App;
