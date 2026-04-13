@@ -1,7 +1,7 @@
 function Profile() {
     const user = {
     name: "Nirasha Jayamanna",
-    email: "nirasha@gmail.com",
+    email: "nirashajayamanna3@gmail.com",
     bio: "Software Engineering Student",  
   };
   return (
