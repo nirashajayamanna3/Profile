@@ -3,7 +3,8 @@ function Profile() {
     picture: "myPhoto.jpg",
     name: "Nirasha Jayamanna",
     email: "nirashajayamanna3@gmail.com",
-    bio: "Software Engineering Student",  
+    bio: "Software Engineering Student", 
+    location: "Kegalle, Sri Lanka", 
   };
 
   return (
@@ -12,6 +13,8 @@ function Profile() {
       <h2>{user.name}</h2>
       <p>{user.bio}</p>
       <p>{user.email}</p>
+      <p>{user.location}</p>
+      <button >Edit Profile</button>
       
     </div>
   );
